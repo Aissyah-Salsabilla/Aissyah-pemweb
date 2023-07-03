@@ -1,0 +1,877 @@
+CRITICAL - 2023-06-23 01:15:38 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:16:29 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:16:30 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:17:52 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:17:53 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:19:04 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:19:33 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:19:54 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:20:53 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:20:54 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:20:55 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\semuafilm.php on line 47.
+ 1 APPPATH\Views\film\semuafilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:21:18 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\film\semuafilm.php(56): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:21:43 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\film\semuafilm.php(56): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:21:44 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\film\semuafilm.php(56): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:23:08 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\film\semuafilm.php(56): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:30:30 --> Invalid file: "Layout/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 4 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:30:59 --> Invalid file: "layout/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 4 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:31:27 --> Invalid file: "layout/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 4 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 01:32:48 --> Invalid file: "film/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('film/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 4 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:00:47 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:03:25 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:09:41 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:10:34 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:10:36 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:10:37 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:10:53 --> Undefined variable $films
+in APPPATH\Views\film\index.php on line 25.
+ 1 APPPATH\Views\film\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $films', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:11:13 --> Call to undefined method App\Models\FilmModel::getAllJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:18:57 --> Undefined variable $films
+in APPPATH\Views\film\index.php on line 25.
+ 1 APPPATH\Views\film\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $films', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:20:23 --> Undefined array key "genre"
+in APPPATH\Views\film\index.php on line 32.
+ 1 APPPATH\Views\film\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:20:47 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 32.
+ 1 APPPATH\Views\film\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:23:58 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 32.
+ 1 APPPATH\Views\film\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:31:06 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 32.
+ 1 APPPATH\Views\film\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:53:19 --> Class "App\Models\GenreModel" not found
+in APPPATH\Controllers\genre.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:55:34 --> Class "App\Models\GenreModel" not found
+in APPPATH\Controllers\genre.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:55:36 --> Class "App\Models\GenreModel" not found
+in APPPATH\Controllers\genre.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:56:14 --> Class "App\Models\GenreModel" not found
+in APPPATH\Controllers\genre.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:56:16 --> Class "App\Models\GenreModel" not found
+in APPPATH\Controllers\genre.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:58:21 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\genre.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 02:59:04 --> Call to a member function getAllDataJoin() on null
+in APPPATH\Controllers\genre.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:02:04 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Models\GenreModel.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Codeigniter4\\app\\Models\\GenreModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GenreModel')
+ 3 APPPATH\Controllers\genre.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GenreModel')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Genre->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:08:13 --> Call to a member function getAllDataJoin() on null
+in APPPATH\Controllers\genre.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:08:37 --> Call to a member function getAllJoin() on null
+in APPPATH\Controllers\genre.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:09:14 --> Call to a member function getAllJoin() on null
+in APPPATH\Controllers\genre.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:11:19 --> Undefined variable $semuagenre
+in APPPATH\Views\film\semuaGenre.php on line 23.
+ 1 APPPATH\Views\film\semuaGenre.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuagenre', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuaGenre.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuaGenre.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaGenre', [], true)
+ 5 APPPATH\Controllers\genre.php(24): view('Film/semuaGenre', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:25:36 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(24): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:26:11 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(24): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:26:13 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(24): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:26:14 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(24): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:26:44 --> Call to undefined method App\Models\FilmModel::getAllDataJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllDataJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 03:31:08 --> Call to undefined method App\Models\FilmModel::getAllData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(24): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:22:05 --> Invalid file: "about/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about/index', [], true)
+ 3 APPPATH\Controllers\about.php(9): view('about/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:23:02 --> Invalid file: "about/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about/index', [], true)
+ 3 APPPATH\Controllers\about.php(9): view('about/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:23:28 --> Invalid file: "about/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about/about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about/about', [], true)
+ 3 APPPATH\Controllers\about.php(9): view('about/about')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\About->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:31:36 --> Call to undefined method App\Models\FilmModel::getAllDataJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllDataJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:31:55 --> Call to undefined method App\Models\FilmModel::finAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\FilmModel.php(16): CodeIgniter\Model->__call('finAll', [])
+ 2 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDatajoin()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:32:21 --> Call to undefined method App\Models\FilmModel::getAllDataJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllDataJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+ERROR - 2023-06-23 07:32:34 --> mysqli_sql_exception: Unknown column 'genre.id' in 'on clause' in C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter4\app\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter4\app\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+#8 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#9 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#10 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-23 07:32:34 --> Unknown column 'genre.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+ERROR - 2023-06-23 07:33:28 --> mysqli_sql_exception: Unknown column 'genre.id' in 'on clause' in C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter4\app\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter4\app\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+#8 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#9 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#10 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-23 07:33:28 --> Unknown column 'genre.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+ERROR - 2023-06-23 07:33:29 --> mysqli_sql_exception: Unknown column 'genre.id' in 'on clause' in C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter4\app\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter4\app\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+#8 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#9 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#10 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-23 07:33:29 --> Unknown column 'genre.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+ERROR - 2023-06-23 07:34:53 --> mysqli_sql_exception: Unknown column 'genre.id' in 'on clause' in C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter4\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter4\app\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter4\app\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+#8 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#9 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#10 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-23 07:34:53 --> Unknown column 'genre.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `film`
+JOIN `genre` ON `film`.`id_genre` = `genre`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\FilmModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:35:14 --> Call to undefined method App\Models\FilmModel::getAllDataJoin
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(19): CodeIgniter\Model->__call('getAllDataJoin', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:35:26 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\Codeigniter4\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join()
+ 2 APPPATH\Models\FilmModel.php(16): CodeIgniter\Model->__call('join', [])
+ 3 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:36:52 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\Codeigniter4\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join()
+ 2 APPPATH\Models\FilmModel.php(16): CodeIgniter\Model->__call('join', [])
+ 3 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 07:37:41 --> Call to undefined method App\Models\FilmModel::finfAll
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\FilmModel.php(15): CodeIgniter\Model->__call('finfAll', [])
+ 2 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+ERROR - 2023-06-23 07:41:43 --> mysqli_sql_exception: Unknown column 'genre.id' in 'on clause' in C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`.*...', 0)
+#1 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`.*...')
+#2 C:\xampp\htdocs\Codeigniter4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`.*...')
+#3 C:\xampp\htdocs\Codeigniter4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter4\app\Models\FilmModel.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter4\app\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#7 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-23 07:41:43 --> Unknown column 'genre.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(19): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 08:08:55 --> Undefined variable $data_film
+in APPPATH\Views\film\index.php on line 25.
+ 1 APPPATH\Views\film\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_film', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(20): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 08:10:01 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 20.
+ 1 APPPATH\Views\film\semuafilm.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 08:10:18 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 20.
+ 1 APPPATH\Views\film\semuafilm.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 08:10:32 --> Undefined array key "genre"
+in APPPATH\Views\film\semuafilm.php on line 20.
+ 1 APPPATH\Views\film\semuafilm.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:28:11 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:28:54 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:28:55 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:29:30 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:30:46 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:30:53 --> Undefined array key "cover"
+in APPPATH\Views\film\index.php on line 35.
+ 1 APPPATH\Views\film\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(23): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-23 09:31:12 --> Call to a member function getAllData() on null
+in APPPATH\Controllers\Film.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')

@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-14 07:45:31 --> Invalid file: "hewan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hewan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hewan/index', [], true)
+ 3 APPPATH\Controllers\Hewan.php(20): view('hewan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hewan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hewan))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-14 07:46:46 --> Undefined array key "nama_hewan"
+in APPPATH\Views\hewan\index.php on line 18.
+ 1 APPPATH\Views\hewan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_hewan"', 'C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\hewan\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4\\app\\Views\\hewan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hewan/index', [], true)
+ 5 APPPATH\Controllers\Hewan.php(20): view('hewan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hewan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hewan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4\\public\\index.php')

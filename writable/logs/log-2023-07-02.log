@@ -1,0 +1,1116 @@
+CRITICAL - 2023-07-02 03:24:01 --> syntax error, unexpected token ">"
+in APPPATH\Models\FilmModel.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Models\\FilmModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 3 APPPATH\Controllers\Film.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 03:43:23 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getFilm()
+in APPPATH\Controllers\Film.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 03:43:34 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getFilm()
+in APPPATH\Controllers\Film.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 03:44:30 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getFilm()
+in APPPATH\Controllers\Film.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 03:45:24 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getFilm()
+in APPPATH\Controllers\Film.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 03:53:20 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Film.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public/assets/cover/', '1688270000_266db13e0b2b7e897a11')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 04:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 04:13:18 --> Undefined array key "id"
+in APPPATH\Views\film\add.php on line 36.
+ 1 APPPATH\Views\film\add.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\add.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/add', [], true)
+ 5 APPPATH\Controllers\Film.php(38): view('film/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 04:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 04:13:46 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Film.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public/assets/cover/', '1688271226_2e28a692aca5a8541aad')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 05:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 05:05:12 --> Call to undefined function App\Controllers\validate()
+in APPPATH\Controllers\Film.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 05:06:41 --> Call to undefined function App\Controllers\validate()
+in APPPATH\Controllers\Film.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 05:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 05:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 06:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 11:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 11:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 11:37:51 --> Call to undefined method App\Models\FilmModel::getdataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getdataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 11:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 11:38:07 --> Call to undefined method App\Models\FilmModel::getdataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getdataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 11:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 11:38:08 --> Call to undefined method App\Models\FilmModel::getdataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getdataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 11:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 11:38:09 --> Call to undefined method App\Models\FilmModel::getdataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getdataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:38:19 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:39:02 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:39:04 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:39:35 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:39:37 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:43 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:44 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:46 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 11:41:46 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 11:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 11:41:50 --> Call to undefined method App\Models\FilmModel::getdataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getdataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 13:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 13:14:38 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 13:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 13:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 13:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 13:16:44 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:15:12 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:16:46 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:16:55 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 14:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:17:06 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:22:22 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 3 APPPATH\Controllers\Film.php(96): view('film/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:23:20 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 3 APPPATH\Controllers\Film.php(96): view('film/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:24:16 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 3 APPPATH\Controllers\Film.php(96): view('film/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:24:18 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 3 APPPATH\Controllers\Film.php(96): view('film/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:24:47 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:25:11 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:25:12 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:25:23 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:25:24 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:26:47 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:27:34 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:27:35 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:27:36 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:27:37 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:27:37 --> Invalid file: "film/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:30:47 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 38.
+ 1 APPPATH\Views\film\edit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:31:17 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 38.
+ 1 APPPATH\Views\film\edit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:31:30 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 38.
+ 1 APPPATH\Views\film\edit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit.php', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:44:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:50:18 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:52:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 14:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:54:29 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 14:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 14:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 14:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:55:32 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:55:58 --> Undefined array key "genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:55:59 --> Undefined array key "genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:57:41 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:57:43 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:57:43 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:57:43 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 14:57:44 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 14:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 14:58:55 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:00:53 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:00:55 --> Undefined array key "nama_genre"
+in APPPATH\Views\film\index.php on line 38.
+ 1 APPPATH\Views\film\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:01:59 --> Call to undefined method App\Models\FilmModel::getDataByID
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Film.php(44): CodeIgniter\Model->__call('getDataByID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:09:59 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(45): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:10:35 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:11:36 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:11:38 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:11:39 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:26 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:27 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:44 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:45 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:46 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:47 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:47 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:13:50 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:13:52 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:14:44 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:14:46 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:15:43 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:15:44 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 15:15:45 --> Too few arguments to function App\Controllers\Film::update(), 0 passed in C:\xampp\htdocs\Codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Film.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 15:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:15:52 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:20:07 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:20:49 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:20:50 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:20:51 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:20:52 --> Undefined variable $film
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 15:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 15:28:21 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 16:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 16:25:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 16:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 16:28:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 16:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 16:29:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 16:33:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 16:33:25 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Film.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 16:37:52 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 152.
+ 1 APPPATH\Controllers\Film.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Controllers\\Film.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 16:38:43 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 152.
+ 1 APPPATH\Controllers\Film.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Controllers\\Film.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 16:40:33 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 152.
+ 1 APPPATH\Controllers\Film.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Controllers\\Film.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+CRITICAL - 2023-07-02 23:56:32 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 152.
+ 1 APPPATH\Controllers\Film.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Controllers\\Film.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 23:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 23:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 23:56:59 --> Undefined variable $semuagenre
+in APPPATH\Views\film\edit.php on line 39.
+ 1 APPPATH\Views\film\edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuagenre', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 23:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 23:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 23:57:16 --> Undefined variable $semuagenre
+in APPPATH\Views\film\edit.php on line 39.
+ 1 APPPATH\Views\film\edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuagenre', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 23:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 23:59:16 --> Undefined array key "id_genre"
+in APPPATH\Views\film\edit.php on line 41.
+ 1 APPPATH\Views\film\edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 23:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 23:59:35 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 41.
+ 1 APPPATH\Views\film\edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
+INFO - 2023-07-02 23:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-02 23:59:36 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 41.
+ 1 APPPATH\Views\film\edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(45): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Codeigniter4 - Copy\\public\\index.php')
